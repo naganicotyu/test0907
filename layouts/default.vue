@@ -1,10 +1,10 @@
 <template>
 <div class="top_menu">
-<v-card>
+
 <v-navigation-drawer
 permanent
 expand-on-hover
-
+height="100vh"
 >
 <v-list>
 <v-list-item
@@ -27,8 +27,6 @@ link
 
 
 </v-navigation-drawer>
-
-</v-card>
 
 </div>
 </template>

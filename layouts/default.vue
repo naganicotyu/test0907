@@ -3,11 +3,13 @@
 
   <v-app-bar
   elevation="0"
-  color="#111111"
-  dense
-  shrink-on-scroll
-  scroll-threshold="500"
-  ><v-app-bar-title>
+  color="barck"
+  max-height="20px"
+  >
+  
+  <v-app-bar-title
+  color="gray"
+  >
     <p>titte</p>
   </v-app-bar-title>
 

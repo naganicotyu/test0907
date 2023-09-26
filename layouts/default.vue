@@ -1,6 +1,18 @@
 <template>
 <div class="top_menu">
 
+  <v-app-bar
+  elevation="0"
+  color="#111111"
+  dense
+  shrink-on-scroll
+  scroll-threshold="500"
+  ><v-app-bar-title>
+    <p>titte</p>
+  </v-app-bar-title>
+
+  </v-app-bar>
+
 <v-navigation-drawer
 permanent
 expand-on-hover

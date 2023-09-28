@@ -8,7 +8,9 @@
   >
   
   <v-app-bar-title
+  elevation="0"
   color="gray"
+  
   >
     <p>titte</p>
   </v-app-bar-title>
@@ -16,6 +18,7 @@
   </v-app-bar>
 
 <v-navigation-drawer
+elevation="0"
 permanent
 expand-on-hover
 height="100vh"

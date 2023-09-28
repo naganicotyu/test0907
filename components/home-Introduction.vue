@@ -22,13 +22,13 @@ export default {
       return {
         image: [
           {
-            src: '/static/top-img1.jpg'
+            src: '@/static/top-img1.jpg'
           },
           {
-            src: '/static/top-img2.jpg'
+            src: '@/static/top-img2.jpg'
           },
           {
-            src: '/static/top-img3.jpg'
+            src: '@/static/top-img3.jpg'
           }
         ]
       }

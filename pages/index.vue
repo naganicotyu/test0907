@@ -1,7 +1,8 @@
 <template>
 <div>
-<home-body />
-<home-introduction />
+<HomeBody />
+<HomeIntroduction />
+<HomeCard />
 </div>
 </template>
 

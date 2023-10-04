@@ -1,16 +1,17 @@
 
 <template>
 
-<v-carousel
-dark="true"
->
-<v-carousel-item>
-    v-for="(image,i) in image"
+<v-carousel>
+<v-carousel-item
+v-for="(image,i) in images"
     :key="i"
     :src="image.src"
-
+    reverse-transition="fade-transition"
+      transition="fade-transition"
+>
 </v-carousel-item>
 </v-carousel>
+
 </template>
 
 
@@ -20,15 +21,15 @@ dark="true"
 export default {
     data () {
       return {
-        image: [
+        images: [
           {
-            src: '@/static/top-img1.jpg'
+            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
           },
           {
-            src: '@/static/top-img2.jpg'
+            src: '/static/top-img2.jpg'
           },
           {
-            src: '@/static/top-img3.jpg'
+            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
           }
         ]
       }

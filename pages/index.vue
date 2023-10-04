@@ -1,13 +1,15 @@
 <template>
-<div>
-<HomeBody />
-<HomeIntroduction />
+<v-main>
+<home-introduction />
 <HomeCard />
-</div>
+</v-main>
 </template>
 
+
+
+
 <script>
-export default {
-  name: 'IndexPage'
-}
+  export default {
+    name: 'IndexPage'
+  }
 </script>

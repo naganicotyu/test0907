@@ -1,7 +1,9 @@
 
 <template>
 
-<v-carousel>
+<v-carousel
+width="600px"
+>
 <v-carousel-item
 v-for="(image,i) in images"
     :key="i"
@@ -23,13 +25,13 @@ export default {
       return {
         images: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
+            src: '/image/top-img1.jpg'
           },
           {
-            src: '/static/top-img2.jpg'
+            src: '/image/top-img3.jpg'
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
+            src: '/image/top-img2.jpg'
           }
         ]
       }

@@ -10,6 +10,7 @@
   <v-app-bar-title
   elevation="0"
   color="gray"
+  
   >
     <p>titte</p>
   </v-app-bar-title>
@@ -33,6 +34,8 @@
   elevation="0"
   permanent
   expand-on-hover
+  
+  fixed
   height="100vh"
   >
     <v-list>
